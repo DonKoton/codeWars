@@ -1,3 +1,5 @@
+# https://www.codewars.com/kata/54a91a4883a7de5d7800009c/train/python
+
 import re
 
 def increment_string(strng):
@@ -13,3 +15,10 @@ def increment_string(strng):
             return strng + '1'
     else:
         return '1'
+
+print(increment_string('foo'))
+print(increment_string('foo1'))
+print(increment_string('foo01'))
+print(increment_string('foo00'))
+print(increment_string('foo099'))
+print(increment_string(''))
